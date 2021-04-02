@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Route exact path="/" component={Home}></Route>
-      <Route path="/profile" component={Profile}></Route>
+      <Route path="/profile/:name" component={Profile}></Route>
     </BrowserRouter>
   );
 }
